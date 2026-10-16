@@ -1,0 +1,10 @@
+{
+  "name": "susu-savings-group",
+  "version": "1.0.0",
+  "description": "Manage one rotating savings group (susu) from the command line",
+  "main": "src/group.js",
+  "bin": { "susu": "src/cli.js" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
